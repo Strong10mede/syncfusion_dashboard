@@ -1,7 +1,10 @@
 import React from "react";
 
 const Button = () => {
-  return <div>Button</div>;
+  const func = () => {
+    console.log("sf");
+  };
+  return <div></div>;
 };
 
 export default Button;
